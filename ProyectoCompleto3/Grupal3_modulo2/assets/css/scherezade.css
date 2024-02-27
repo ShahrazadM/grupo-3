@@ -1,0 +1,48 @@
+body {
+    background-image: url(../img/fondomar.jpeg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    .wrap {
+        width: 90%;
+        max-width: 1000px;
+    /*margin:auto;*/
+    }
+    .widget  {
+        width: 40%;
+        margin:2em;
+        /*margin;32px;*/
+    }
+    .widget p {
+        display: inline-block;
+        line-height: 1em;
+    }
+    .fecha {
+        font-family:'Franklin Gothic Medium';
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 0.3125rem;
+        /*margin botton:5px;*/
+        background-color:rgba(5, 33, 70, 0.5);
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .reloj {
+        font-family:Arial;
+        width: 100%;
+        padding: 20px;
+        font-size: 4em;
+        text-align: center;
+        background-color:rgba(29, 230, 179, 0.5);
+    }
+    .reloj .caja-segundos{
+        display: inline-block;
+    }
+    .reloj .segundos,
+    .relog .ampmn{
+        font-size: 2rem;
+        display: block;
+    }
